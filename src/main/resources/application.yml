@@ -1,0 +1,11 @@
+telegram-bot:
+  token: 5752778117:AAFzMFrlLb1rOxswq_nk0Da84DM3NZEkdso
+  username: hot5_clicker_bot
+
+spring:
+  data:
+    mongodb:
+      # In Case of mongodb Repel Set
+      uri: mongodb://admin:123456@localhost:27017/clicker-db?authSource=admin&authMechanism=SCRAM-SHA-1
+      #uri: mongodb://${MONGO_DB_HOSTNAME}:${MONGO_DB_PASSWORD}@mongod-0.mongodb:27017,mongod-1.mongodb:27017,mongod-2.mongodb:27017/users
+      database: clicker-db
